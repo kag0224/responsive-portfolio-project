@@ -1,5 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #5c715e;
+  --secondary-color: #b6cdbd;
   --default-font-family: "Nunito", sans-serif;
 }
 
@@ -7,7 +8,7 @@ h1,
 h2 {
   font-family: var(--default-font-family);
   font-weight: bold;
-  color: black;
+  color: var(--branding-color);
 }
 
 h1 {
@@ -22,13 +23,13 @@ h2 {
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
-  color: black;
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 30px;
 }
 
 .hero {
-  background: #f9f7fe;
+  background: #f2f9f1;
   text-align: center;
   padding: 160px 20px;
 }
@@ -36,13 +37,20 @@ p {
 .hero p {
   font-size: 36px;
   margin: 0;
+  font-weight: bold;
 }
 
 .hero h2 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
-  color: #272142;
+  color: var(--secondary-color);
+}
+
+.bowtie,
+.dip,
+.salmon {
+  margin-top: 170px;
 }
 
 .btn-branding {
@@ -63,7 +71,7 @@ p {
   padding: 15px 30px;
 }
 
-.yogurt-description {
+.paragraph-description {
   padding: 120px 60px;
 }
 
