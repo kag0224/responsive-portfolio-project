@@ -20,6 +20,14 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  color: var(--secondary-color);
+  line-height: 30px;
+  margin-top: 200px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -50,7 +58,24 @@ p {
 .bowtie,
 .dip,
 .salmon {
-  margin-top: 170px;
+  margin-top: 110px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-content {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -89,8 +114,13 @@ p {
     padding: 80px 10px;
   }
 
-  .yogurt-description {
+  .paragraph-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
