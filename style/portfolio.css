@@ -78,6 +78,16 @@ p {
   margin: 30px;
 }
 
+.work-section h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.work-section p {
+  font-size: 14px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4;
