@@ -23,9 +23,10 @@ h2 {
 h4 {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 18px;
   color: var(--secondary-color);
   line-height: 30px;
-  margin-top: 200px;
+  margin-top: 125px;
 }
 
 h3 {
@@ -44,7 +45,7 @@ p {
 .hero {
   background: #f2f9f1;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -75,8 +76,10 @@ p {
   font-size: 18px;
 }
 
-.about-section {
-  padding: 160px 20px;
+.about-section,
+.work-section,
+.contact-section {
+  padding: 60px 20px;
 }
 
 .about-content {
@@ -190,6 +193,16 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.recipe-link a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.recipe-link a:hover {
+  background: var(--branding-color);
+  color: #f2f9f1;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -198,10 +211,6 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 10px;
   }
 
   .paragraph-description {

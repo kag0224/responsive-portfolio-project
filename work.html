@@ -29,33 +29,28 @@
     ></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kristy-Ann's projects, front-end developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+    <div class="container-fluid">
+      <nav class="navbar d-flex justify-content-between">
         <a class="navbar-brand" href="/">Kristy-Ann Gaor</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link active" href="/work.html">Work</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Kristy-Ann">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Kristy-Ann's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kristy-Ann">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="work-section container">
       <div class="work-content">
         <h2 class="mb-5 text-center">
@@ -64,46 +59,117 @@
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
-              src="images/yogurt.png"
+              src="images/pasta.png"
               class="img-fluid rounded"
-              alt="yogurt"
+              alt="bowtie pasta"
             />
-            <h3 class="text-center">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
+            <h3 class="text-center">
+              <div class="recipe-link">
+                <a href="#">Bowtie Pasta Recipe</a>
+              </div>
+            </h3>
+            <p class="text-center text-muted">
+              Bowtie pasta with tomatoes, greens and a pesto sauce
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
-              src="images/weather.png"
+              src="images/pesto-hummus.png"
               class="img-fluid rounded"
-              alt="weather"
+              alt="pesto hummus dip"
             />
-            <h3 class="text-center">Weather Project</h3>
+            <h3 class="text-center">
+              <div class="recipe-link">
+                <a href="#">Pesto Hummus Recipe</a>
+              </div>
+            </h3>
             <p class="text-center text-muted">
-              Built with HTML, CSS and JavaScript
+              Classic hummus topped with pesto, pomegranate seeds and marcona
+              almonds
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
-              src="images/dictionary.png"
+              src="images/salmon.png"
               class="img-fluid rounded"
-              alt="dictionary"
+              alt="salmon"
             />
-            <h3 class="text-center">Dictionary App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <h3 class="text-center">
+              <div class="recipe-link">
+                <a href="#">Salmon and Vegetable Recipe</a>
+              </div>
+            </h3>
+            <p class="text-center text-muted">
+              Grilled salmon on a bed of mashed potatoes, spinach and vegetable
+              salsa
+            </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img
-              src="images/translator.png"
-              class="img-fluid"
-              alt="translator"
-            />
-            <h3 class="text-center">Translator App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <img src="images/meatballs.png" class="img-fluid" alt="meatballs" />
+            <h3 class="text-center">
+              <div class="recipe-link">
+                <a href="#">Turkey Meatball Recipe</a>
+              </div>
+            </h3>
+            <p class="text-center text-muted">
+              Simple and delicious baked turkey meatballs
+            </p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Kristy-Ann"
+              class="btn btn-branding"
+            >
+              Contact me here
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:kagaor@gmail.com" class="email-link"
+            >kagaor@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/kag0224/responsive-portfolio-project"
+            target="_blank"
+            title="GitHub profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/kristyann0101"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/kristyann0101"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          <a
+            href="https://github.com/kag0224/responsive-portfolio-project"
+            target="_blank"
+          >
+            Open-sourced</a
+          >
+          project coded by Kristy-Ann Gaor
+        </p>
+      </footer>
     </div>
   </body>
 </html>
